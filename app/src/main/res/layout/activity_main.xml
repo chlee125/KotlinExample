@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.myapp.kotlinstart.MainActivity">
+
+    <TextView
+        android:id="@+id/txtHello"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:text="Hello Cotlin"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:text="Text Clear"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+
+    <Button
+        android:id="@+id/btn_print_01"
+        android:text="print_01"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <Button
+        android:id="@+id/btn_print_02"
+        android:text="btn_print_02"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <Button
+        android:id="@+id/btn_print_03"
+        android:text="btn_print_03"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+
+</LinearLayout>
